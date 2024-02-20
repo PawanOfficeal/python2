@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.container{
+    position: relative;
+    width: vw;
+    height: 120rem;
+    background-color: lightskyblue;
+    scrollbar-width: none;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+.main_header{
+    opacity: 0.9;
+    width: 100%;
+    height: 25%;
+    background-color: blue;
+    color: aqua;
+}
+.main_main{
+    background-color: antiquewhite;
+    height: 60%;
+    width: 100vw;
+}
